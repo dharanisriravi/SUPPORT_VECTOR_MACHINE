@@ -17,20 +17,10 @@ This project allows users to enter a text message and checks whether it's **Spam
 ---
 
 ##  Project Structure
+![structure](image-2.png)
 
-spam-mail-classifier/
-├── static/
-│ └── style.css # Modern UI styling
-├── templates/
-│ ├── index.html # Input message page
-│ └── result.html # Prediction result page
-├── spam.csv # Sample dataset
-├── spam_classifier_model.pkl# Trained model (pipeline)
-├── model_train.py # Script to train and save the model
-├── app.py # Flask backend
-└── README.md # Project documentation
 
-## ⚙️ Installation
+## Installation
 
 1. **Clone or Download** the project
 

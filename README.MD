@@ -17,7 +17,7 @@ This project allows users to enter a text message and checks whether it's **Spam
 ---
 
 ##  Project Structure
-![structure](image-2.png)
+![structure](image-3.png)
 
 
 ## Installation

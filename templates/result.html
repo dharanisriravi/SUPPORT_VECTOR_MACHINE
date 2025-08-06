@@ -1,0 +1,17 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Result - Spam Detector</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <div class="container">
+        <h2>🔍 Prediction Result</h2>
+        <p><strong>Message:</strong> {{ message }}</p>
+        <p><strong>Result:</strong> <span class="{{ 'spam' if result == 'Spam' else 'ham' }}">{{ result }}</span></p>
+        <p><strong>Model Confidence:</strong> {{ probability }}%</p>
+        <a href="/">🔙 Check Another</a>
+    </div>
+</body>
+</html>

@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Spam Detector</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <div class="container">
+        <h2>📩 Spam Message Detector</h2>
+        <form action="/predict" method="POST">
+            <textarea name="message" placeholder="Enter your message here..." required></textarea>
+            <button type="submit">Check Message</button>
+        </form>
+    </div>
+</body>
+</html>

@@ -50,13 +50,15 @@ Dataset: SMS messages labeled as ham (not spam) or spam
 
 Pipeline: Combines vectorization + classifier for easy deployment
 
- UI Preview
-Input page: Enter your message to check
+# UI Preview
+## Input page: Enter your message to check
 
 ![enter message](image.png)
+
+## Result page: Shows prediction (Spam / Not Spam) with confidence score
+
 ![result](image-1.png)
 
-Result page: Shows prediction (Spam / Not Spam) with confidence score
 
 Styled with modern colors and responsive design
 

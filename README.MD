@@ -62,16 +62,16 @@ Pipeline: Combines vectorization + classifier for easy deployment
 
 Styled with modern colors and responsive design
 
- Future Enhancements
-Add prediction history (track previous messages in a session)
+ # Future Enhancements
+-Add prediction history (track previous messages in a session)
 
-Add file upload option for bulk message detection
+-Add file upload option for bulk message detection
 
-Use TF-IDF Vectorizer for better accuracy
+-Use TF-IDF Vectorizer for better accuracy
 
-Deploy to cloud platforms like Heroku or AWS
+-Deploy to cloud platforms like Heroku or AWS
 
- Author
+ ## Author
 Developed by R.Dharani sri.
 
 

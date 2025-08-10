@@ -1,75 +1,80 @@
+## Spam Mail Classifier (SVM)
 
-# Spam Mail Classifier
+This project is a Spam Mail Classifier built using the Support Vector Machine (SVM) algorithm.
+It takes an email/message as input and predicts whether it is Spam or Ham (Not Spam).
+The app uses Flask for the backend and a clean, gradient-based UI for the frontend.
 
-A web-based Spam Message Detector built using **Flask**, **Python**, and **Machine Learning (Naive Bayes)**.  
-This project allows users to enter a text message and checks whether it's **Spam** or **Not Spam**, showing the model's confidence score.  
+## Features
 
----
+Machine Learning with SVM (Support Vector Machine)
 
-##  Features
+TF-IDF Vectorization for text processing
 
--  Train a spam classifier using Naive Bayes  
--  Flask web app with a **modern colorful UI**  
--  Real-time prediction of Spam or Not Spam  
-- Displays **model confidence percentage**  
--  Clean and simple project structure  
+Flask Web App for user interaction
 
----
+Attractive Gradient UI for input and results
 
-##  Project Structure
-![structure](image-3.png)
+Lightweight & Fast — works with small datasets
 
+## Project Structure
 
-## Installation
+![alt text](image-2.png)
 
-1. **Clone or Download** the project
+## Installation & Setup
 
-2. Navigate to the project folder:
-    cd spam-mail-classifier
+1. Clone the Repository
 
-3.  Install dependencies:
-    pip install flask pandas scikit-learn
+git clone https://github.com/yourusername/spam-mail-classifier.git
+cd spam-mail-classifier
 
-4. Train the model:
-python model_train.py
-This will create spam_classifier_model.pkl.
+2. Install Dependencies
 
-5. Run the Flask app:
-  python app.py
+pip install flask pandas scikit-learn joblib
 
-6. Open your browser and go to:
+3. Train the Model
 
-  http://127.0.0.1:5000/
+python train_model.py
 
- Model
-Algorithm: Multinomial Naive Bayes
+4. Run the Flask App
 
-Feature extraction: Count Vectorizer
+python app.py
 
-Dataset: SMS messages labeled as ham (not spam) or spam
+5. Open in Browser
 
-Pipeline: Combines vectorization + classifier for easy deployment
+http://127.0.0.1:5000/
 
- UI Preview
-Input page: Enter your message to check
+## Usage
+Enter your email/message in the text area.
 
-![enter message](image.png)
-![result](image-1.png)
+Click Check.
 
-Result page: Shows prediction (Spam / Not Spam) with confidence score
+The app will predict whether it's Spam or Ham.
 
-Styled with modern colors and responsive design
+## Example
 
- Future Enhancements
-Add prediction history (track previous messages in a session)
+### Input:
 
-Add file upload option for bulk message detection
+Congratulations! You have won a free vacation. Click here to claim now!
 
-Use TF-IDF Vectorizer for better accuracy
+![alt text](image.png)
 
-Deploy to cloud platforms like Heroku or AWS
+### Output:
 
- Author
-Developed by R.Dharani sri.
+Prediction: Spam
 
+![alt text](image-1.png)
 
+## Tech Stack
+
+Python
+
+Flask
+
+Scikit-learn
+
+Pandas
+
+HTML/CSS
+
+### Author
+Developed by R.DHARANI SRI

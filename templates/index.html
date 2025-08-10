@@ -1,16 +1,48 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Spam Detector</title>
-    <link rel="stylesheet" href="/static/style.css">
+    <title>Spam Mail Classifier</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(to right, #6dd5ed, #2193b0);
+            text-align: center;
+            padding: 50px;
+        }
+        h1 {
+            color: white;
+        }
+        form {
+            background: white;
+            padding: 20px;
+            border-radius: 15px;
+            display: inline-block;
+        }
+        textarea {
+            width: 300px;
+            height: 150px;
+            padding: 10px;
+            font-size: 16px;
+        }
+        button {
+            background: #2193b0;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            font-size: 18px;
+            border-radius: 8px;
+            cursor: pointer;
+        }
+        button:hover {
+            background: #176a81;
+        }
+    </style>
 </head>
 <body>
-    <div class="container">
-        <h2>📩 Spam Message Detector</h2>
-        <form action="/predict" method="POST">
-            <textarea name="message" placeholder="Enter your message here..." required></textarea>
-            <button type="submit">Check Message</button>
-        </form>
-    </div>
+    <h1>Spam Mail Classifier</h1>
+    <form method="POST" action="/predict">
+        <textarea name="message" placeholder="Enter your email text here..."></textarea><br><br>
+        <button type="submit">Check</button>
+    </form>
 </body>
 </html>

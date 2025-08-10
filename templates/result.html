@@ -2,16 +2,40 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Result - Spam Detector</title>
-    <link rel="stylesheet" href="/static/style.css">
+    <title>Prediction Result</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(to right, #ff9966, #ff5e62);
+            text-align: center;
+            padding: 50px;
+        }
+        h1 {
+            color: white;
+        }
+        .result-box {
+            background: white;
+            display: inline-block;
+            padding: 20px;
+            border-radius: 15px;
+            font-size: 20px;
+        }
+        a {
+            display: block;
+            margin-top: 20px;
+            color: white;
+            text-decoration: none;
+            background: #ff5e62;
+            padding: 10px;
+            border-radius: 8px;
+        }
+    </style>
 </head>
 <body>
-    <div class="container">
-        <h2>🔍 Prediction Result</h2>
-        <p><strong>Message:</strong> {{ message }}</p>
-        <p><strong>Result:</strong> <span class="{{ 'spam' if result == 'Spam' else 'ham' }}">{{ result }}</span></p>
-        <p><strong>Model Confidence:</strong> {{ probability }}%</p>
-        <a href="/">🔙 Check Another</a>
+    <h1>Result</h1>
+    <div class="result-box">
+        Prediction: <b>{{ prediction }}</b>
     </div>
+    <a href="/">Go Back</a>
 </body>
 </html>

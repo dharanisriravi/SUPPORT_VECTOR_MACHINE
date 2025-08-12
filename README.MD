@@ -8,13 +8,13 @@ The app uses Flask for the backend and a clean, gradient-based UI for the fronte
 
 Machine Learning with SVM (Support Vector Machine)
 
-TF-IDF Vectorization for text processing
+- TF-IDF Vectorization for text processing
 
-Flask Web App for user interaction
+- Flask Web App for user interaction
 
-Attractive Gradient UI for input and results
+- Attractive Gradient UI for input and results
 
-Lightweight & Fast — works with small datasets
+- Lightweight & Fast — works with small datasets
 
 ## Project Structure
 
@@ -66,15 +66,13 @@ Prediction: Spam
 
 ## Tech Stack
 
-Python
+- Python
 
-Flask
+- Flask
 
-Scikit-learn
+- Scikit-learn
 
-Pandas
+- Pandas
 
-HTML/CSS
+- HTML/CSS
 
-### Author
-Developed by R.DHARANI SRI
